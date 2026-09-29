@@ -1,0 +1,18 @@
+name: RPGKillRewardSystem
+version: '1.0-SNAPSHOT'
+
+main: org.AkinToDeath.rPGKillRewardSystem.RPGKillRewardSystem
+api-version: '26.2'
+load: POSTWORLD
+
+commands:
+  killreward:
+    description: Manage the RPG kill reward system
+    usage: /<command> <reload|list>
+    aliases: [kr]
+    permission: killreward.admin
+
+permissions:
+  killreward.admin:
+    description: Allows reloading and listing kill reward rules
+    default: op
