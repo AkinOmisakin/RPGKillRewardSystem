@@ -1,5 +1,5 @@
 name: RPGKillRewardSystem
-version: '${version}'
+version: '1.0'
 
 main: org.AkinToDeath.rPGKillRewardSystem.RPGKillRewardSystem
 api-version: '26.2'
