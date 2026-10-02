@@ -97,6 +97,17 @@ mobs:
 
 The default [`config.yml`](src/main/resources/config.yml) documents every field.
 
+## Testing a named mob
+
+To test the `goblin_king` rule, spawn a zombie with that name and kill it as a player:
+
+```
+/summon minecraft:zombie ~ ~ ~ {CustomName:"Goblin King"}
+```
+
+A name tag renamed in an anvil works too. Note that plain `zombie` rules also apply to named zombies unless they
+have their own `name:` filter.
+
 ## Companion plugin
 
 Pair it with [CustomShopGUI](https://github.com/AkinOmisakin/custom-shop-GUI): NPC merchants where players spend
